@@ -8,7 +8,7 @@ const sendGridMail = async (options) => {
 
   const msg = {
     to: options.email,
-    from: 'admin@washify.co.za', // Use the email address or domain you verified above
+    from: 'codebrain20@gmail.com', // Use the email address or domain you verified above
     subject: options.subject,
     html: options.message.toString(),
   };
@@ -45,7 +45,7 @@ const sendEmail = async (options) => {
     });
     // 2. Define the email options
   const mailOptions = {
-    from: 'WASHIFY <washishy.io>',
+    from: 'WASHIFY <washishy.co.za>',
     to: options.email,
     subject: options.subject,
     html: options.message,
